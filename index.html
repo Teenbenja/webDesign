@@ -7,6 +7,11 @@
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  	<!-- audioPlayer -->
+  	<script src="audioplayerengine/jquery.js"></script>
+    <script src="audioplayerengine/amazingaudioplayer.js"></script>
+    <link rel="stylesheet" type="text/css" href="audioplayerengine/initaudioplayer-1.css">
+    <script src="audioplayerengine/initaudioplayer-1.js"></script>
 </head>
 <body>
 	<input type="checkbox" id="sidebartoggler">
@@ -29,6 +34,21 @@
 			<h1 id="name">Xiaoyu Tian</h1>
 			<p id="des">音乐 <br> 开心时入耳， <br> 伤心时入心。<br> 无时无刻不能没有它。</p>
 		</div>
+		<div id="amazingaudioplayer-1" style="display:block;width:420px;height:auto;margin:0px auto 0px;">
+        <ul class="amazingaudioplayer-audios" style="display:none;">
+            <li data-artist="" data-title="蔡健雅 - 被驯服的象" data-album="" data-info="" data-image="" data-duration="0">
+                <div class="amazingaudioplayer-source" data-src="audios/蔡健雅 - 被驯服的象.mp3" data-type="audio/mpeg" />
+            </li>
+            <li data-artist="" data-title="BTS - 쩔어 (DOPE)" data-album="" data-info="" data-image="" data-duration="0">
+                <div class="amazingaudioplayer-source" data-src="audios/BTS - 쩔어 (DOPE).mp3" data-type="audio/mpeg" />
+            </li>
+            <li data-artist="" data-title="Ed Sheeran - Photograph" data-album="" data-info="" data-image="" data-duration="0">
+                <div class="amazingaudioplayer-source" data-src="audios/Ed Sheeran - Photograph.mp3" data-type="audio/mpeg" />
+            </li>
+        </ul>
+        <div class="amazingaudioplayer-engine"><a href="http://amazingaudioplayer.com" title="html5 audio player">mp3 player for website</a></div>
+    </div>
 	</div>
+	
 </body>
 </html>
