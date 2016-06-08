@@ -14,8 +14,8 @@ html {
 	position: fixed;
 	left: 44%;
 	top: 17%;
-	-webkit-transition: 1s; 
-    transition: 1s;    
+	-webkit-transition: 1.5s; 
+    transition: 1.5s;    
 	-webkit-transition-timing-function: ease-in-out;
 	transition-timing-function: ease-in-out;
 }
@@ -26,8 +26,8 @@ html {
 	top: 35%;
 	left: 42%;
 	-webkit-font-smoothing: antialiased;
-	-webkit-transition: 1s; 
-    transition: 1s;
+	-webkit-transition: 1.5s; 
+    transition: 1.5s;
 	-webkit-transition-timing-function: ease-in-out;
 	transition-timing-function: ease-in-out;
 }
@@ -49,8 +49,8 @@ html {
 	position: fixed;
 	left: 20px;
 	top: 20px;
-	-webkit-transition: 1s; 
-    transition: 1s;
+	-webkit-transition: 1.5s; 
+    transition: 1.5s;
 	-webkit-transition-timing-function: ease-in-out;
 	transition-timing-function: ease-in-out;
 	animation-duration: 2s;
@@ -85,8 +85,8 @@ html {
 	width: 190px;
 	padding: 30px;
 	background: #333;
-	-webkit-transition: 1s; 
-    transition: 1s;
+	-webkit-transition: 1.5s; 
+    transition: 1.5s;
 	-webkit-transition-timing-function: ease-in-out;
 	transition-timing-function: ease-in-out;
 	z-index: 0;
@@ -97,8 +97,8 @@ html {
 	left: -190px;
 	top: 40px;
 	list-style-type: none;
-	-webkit-transition: 1s; 
-    transition: 1s;
+	-webkit-transition: 1.5s; 
+    transition: 1.5s;
 	-webkit-transition-timing-function: ease-in-out;
 	transition-timing-function: ease-in-out;
 	z-index: 0;
@@ -124,16 +124,16 @@ html {
 
 #sidebartoggler:checked + .page-wrap .sidebar {
 	left: 0px;
-	-webkit-transition: 1s; 
-    transition: 1s;
+	-webkit-transition: 1.5s; 
+    transition: 1.5s;
 	-webkit-transition-timing-function: ease-in-out;
 	transition-timing-function: ease-in-out;
 }
 
 #sidebartoggler:checked + .page-wrap .mePic {
 	left: 50%;
-	-webkit-transition: 1s; 
-    transition: 1s;
+	-webkit-transition: 1.5s; 
+    transition: 1.5s;
 	-webkit-transition-timing-function: ease-in-out;
 	transition-timing-function: ease-in-out;
 }
@@ -141,24 +141,24 @@ html {
 
 #sidebartoggler:checked + .page-wrap #words {
 	left: 48%;
-	-webkit-transition: 1s; 
-    transition: 1s;
+	-webkit-transition: 1.5s; 
+    transition: 1.5s;
 	-webkit-transition-timing-function: ease-in-out;
 	transition-timing-function: ease-in-out;
 }
 
 #sidebartoggler:checked + .page-wrap #list {
 	left: 0px;
-	-webkit-transition: 1s; 
-    transition: 1s;
+	-webkit-transition: 1.5s; 
+    transition: 1.5s;
 	-webkit-transition-timing-function: ease-in-out;
 	transition-timing-function: ease-in-out;
 }
 
 #sidebartoggler:checked + .page-wrap .toggle {
 	left: 200px;
-	-webkit-transition: 1s; 
-    transition: 1s;
+	-webkit-transition: 1.5s; 
+    transition: 1.5s;
 	-webkit-transition-timing-function: ease-in-out;
 	transition-timing-function: ease-in-out;
 }
