@@ -163,6 +163,26 @@ html {
 	transition-timing-function: ease-in-out;
 }
 
+#amazingaudioplayer-1 {
+	position: fixed;
+	left: 5px;
+	bottom: 20px;
+	z-index: 1;
+	-webkit-transition: 1s; 
+    transition: 1s;    
+	-webkit-transition-timing-function: ease-in-out;
+	transition-timing-function: ease-in-out;
+}
+
+
+#sidebartoggler:checked + .page-wrap #amazingaudioplayer-1 {
+	left: 200px;
+	-webkit-transition: 1s; 
+    transition: 1s;    
+	-webkit-transition-timing-function: ease-in-out;
+	transition-timing-function: ease-in-out;
+}
+
 
 
 
