@@ -24,7 +24,7 @@ html {
 	position: fixed;
 	width: 400px;
 	top: 35%;
-	left: 42%;
+	left: 35.5%;
 	-webkit-font-smoothing: antialiased;
 	-webkit-transition: 1s; 
     transition: 1s;
@@ -34,15 +34,18 @@ html {
 
 #name {
 	margin-left: 0;
+	font-size: 50px;
 	font-family: 'Papyrus', fantasy;
 	font-weight: bold;
 	color:#333333;
 }
-#des {
-	font-size: 25px;
+.des {
+	font-size: 15px;
 	color:white;
-	text-align: left;
-	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+	text-align: center;
+	font-family: ‘Lucida Console’, Monaco, monospace;
+	font-weight: bolder;
+	margin-left: -15%;
 }
 
 .toggle {
@@ -111,7 +114,7 @@ html {
 	font-family: "ubuntu", sans-serif;
 	margin-bottom: 16px;
 	-webkit-font-smoothing: antialiased;
-	cursor: pointer;
+	/*cursor: pointer;*/
 }
 
 .sidebar li:hover {
@@ -140,7 +143,7 @@ html {
 
 
 #sidebartoggler:checked + .page-wrap #words {
-	left: 48%;
+	left: 41.5%;
 	-webkit-transition: 1s; 
     transition: 1s;
 	-webkit-transition-timing-function: ease-in-out;
