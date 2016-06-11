@@ -282,12 +282,12 @@ html {
 	.mePic {
 		width: 100px;
 		height: 100px;
-		left: 37%;
+		left: 35%;
 	}
 
 	#words {
 		width: 260px;
-		left: 19%;
+		left: 15%;
 		top: 42%;
 	}
 
@@ -312,7 +312,7 @@ html {
 
 	.sidebar li {
 		font-size: 13px;
-		padding: 5px;
+		padding: 3px;
 		margin-bottom: 0px;
 		display: inline-block;
 	}
