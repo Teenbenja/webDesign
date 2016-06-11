@@ -273,7 +273,7 @@ html {
 }
 
 /* small screen mobile phone */
-@media only screen and (max-width: 500px) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-width: 300px)and (max-width: 500px) and (-webkit-min-device-pixel-ratio: 1) {
 	#amazingaudioplayer-1 {
 		width: 200px;
 		height: auto;
