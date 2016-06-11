@@ -280,22 +280,22 @@ html {
 	}
 
 	.mePic {
-		width: 70px;
-		height: 70px;
-		left: 43%;
+		width: 100px;
+		height: 100px;
+		left: 37%;
 	}
 
 	#words {
-		width: 200px;
-		left: 32%;
+		width: 260px;
+		left: 19%;
 	}
 
 	#name {
-		font-size: 28px;
+		font-size: 38px;
 	}
 
 	.des {
-		font-size: 9px;
+		font-size: 16px;
 	}
 	.sidebar {
 		left: -140px;
