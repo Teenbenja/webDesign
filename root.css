@@ -4,6 +4,7 @@ body {
 
 html {
 	background: url(./pics/table.jpg) no-repeat center center fixed;
+	-ms-background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -11,6 +12,8 @@ html {
 }
 
 .mePic {
+	width: 130px;
+	height: 130px;
 	position: fixed;
 	left: 44%;
 	top: 17%;
@@ -64,6 +67,24 @@ html {
 	font-size: 20px;
 	color: black;
 	z-index: 1;
+}
+
+@-ms-keyframes tog {
+	from {
+		color: black;
+	}
+	to {
+		color: red;
+	}
+}
+
+@-moz-keyframes tog {
+	from {
+		color: black;
+	}
+	to {
+		color: red;
+	}
 }
 
 @-webkit-keyframes tog {
@@ -167,6 +188,10 @@ html {
 }
 
 #amazingaudioplayer-1 {
+	display: block;
+	width: 420px;
+	height: auto;
+	margin: 0px auto;
 	position: fixed;
 	left: 5px;
 	bottom: 20px;
@@ -186,7 +211,125 @@ html {
 	transition-timing-function: ease-in-out;
 }
 
+/* tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1){
+
+}
+/* big screen mobile phone*/
+@media only screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+	#amazingaudioplayer-1 {
+		width: 250px;
+		height: auto;
+	}
+
+	.mePic {
+		width: 80px;
+		height: 80px;
+	}
+
+	#words {
+		width: 200px;
+		left: 37%;
+	}
+
+	#name {
+		font-size: 28px;
+	}
+
+	.des {
+		font-size: 9px;
+	}
+	.sidebar {
+		left: -160px;
+		width: 160px;
+	}
+
+	.sidebar ul {
+		left: -160px;
+	}
 
 
+
+	#sidebartoggler:checked + .page-wrap .mePic {
+		left: 54%;
+	}
+
+
+	#sidebartoggler:checked + .page-wrap #words {
+		left: 47%;
+	}
+
+	#sidebartoggler:checked + .page-wrap #list {
+		left: 0px;
+		padding-left: 19px;
+	}
+
+	#sidebartoggler:checked + .page-wrap .toggle {
+		left: 170px;
+	}
+	#sidebartoggler:checked + .page-wrap #amazingaudioplayer-1 {
+		left: 170px;
+	}
+}
+
+/* small screen mobile phone */
+@media only screen and (max-width: 500px) and (-webkit-min-device-pixel-ratio: 1) {
+	#amazingaudioplayer-1 {
+		width: 200px;
+		height: auto;
+	}
+
+	.mePic {
+		width: 70px;
+		height: 70px;
+		left: 43%;
+	}
+
+	#words {
+		width: 200px;
+		left: 32%;
+	}
+
+	#name {
+		font-size: 28px;
+	}
+
+	.des {
+		font-size: 9px;
+	}
+	.sidebar {
+		left: -140px;
+		width: 140px;
+	}
+
+	.sidebar ul {
+		left: -140px;
+	}
+
+	.sidebar li {
+		font-size: 13px;
+	}
+
+	#sidebartoggler:checked + .page-wrap .mePic {
+		left: 57%;
+	}
+
+
+	#sidebartoggler:checked + .page-wrap #words {
+		left: 46%;
+	}
+
+	#sidebartoggler:checked + .page-wrap #list {
+		left: 0px;
+		padding-left: 19px;
+	}
+
+	#sidebartoggler:checked + .page-wrap .toggle {
+		left: 150px;
+	}
+	#sidebartoggler:checked + .page-wrap #amazingaudioplayer-1 {
+		left: 150px;
+	}
+}
 
 
