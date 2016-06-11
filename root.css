@@ -278,7 +278,7 @@ html {
 	}
 
 	#sidebartoggler:checked + .page-wrap .toggle {
-		top: 60px;
+		top: 70px;
 		left: 20px;
 	}
 	#sidebartoggler:checked + .page-wrap #amazingaudioplayer-1 {
@@ -351,7 +351,7 @@ html {
 	}
 
 	#sidebartoggler:checked + .page-wrap .toggle {
-		top: 60px;
+		top: 70px;
 		left: 20px;
 	}
 	#sidebartoggler:checked + .page-wrap #amazingaudioplayer-1 {
