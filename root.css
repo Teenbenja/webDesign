@@ -1,6 +1,3 @@
-body {
-	max-width: 100%;
-}
 
 html {
 	background: url(./pics/table.jpg) no-repeat center center fixed;
@@ -15,8 +12,9 @@ html {
 	width: 130px;
 	height: 130px;
 	position: fixed;
-	left: 44%;
+	left: 50%;
 	top: 17%;
+	margin-left: -65px;
 	-webkit-transition: 1s; 
     transition: 1s;    
 	-webkit-transition-timing-function: ease-in-out;
@@ -26,29 +24,28 @@ html {
 #words {
 	position: fixed;
 	width: 400px;
-	top: 35%;
-	left: 35.5%;
+	left: 50%;
+	margin-left: -200px;
+	top: 38%;
 	-webkit-font-smoothing: antialiased;
 	-webkit-transition: 1s; 
     transition: 1s;
 	-webkit-transition-timing-function: ease-in-out;
 	transition-timing-function: ease-in-out;
+	text-align: center;
 }
 
 #name {
-	margin-left: 0;
 	font-size: 50px;
-	font-family: 'Papyrus', fantasy;
+	font-family: 'Papyrus', fantasy, Verdana, Geneva, sans-serif;
 	font-weight: bold;
 	color:#333333;
 }
 .des {
 	font-size: 15px;
 	color:white;
-	text-align: center;
 	font-family: ‘Lucida Console’, Monaco, monospace;
 	font-weight: bolder;
-	margin-left: -15%;
 }
 
 .toggle {
@@ -135,7 +132,6 @@ html {
 	font-family: "ubuntu", sans-serif;
 	margin-bottom: 16px;
 	-webkit-font-smoothing: antialiased;
-	/*cursor: pointer;*/
 }
 
 .sidebar li:hover {
@@ -155,7 +151,7 @@ html {
 }
 
 #sidebartoggler:checked + .page-wrap .mePic {
-	left: 50%;
+	margin-left: 35px;
 	-webkit-transition: 1s; 
     transition: 1s;
 	-webkit-transition-timing-function: ease-in-out;
@@ -164,7 +160,7 @@ html {
 
 
 #sidebartoggler:checked + .page-wrap #words {
-	left: 41.5%;
+	margin-left: -105px;
 	-webkit-transition: 1s; 
     transition: 1s;
 	-webkit-transition-timing-function: ease-in-out;
@@ -219,14 +215,11 @@ html {
 	}
 
 	.mePic {
-		width: 110px;
-		height: 110px;
-		left: 43%;
+		width: 130px;
+		height: 130px;
 	}
 
 	#words {
-		width: 260px;
-		left: 36%;
 		top: 42%;
 	}
 
@@ -263,13 +256,13 @@ html {
 
 	#sidebartoggler:checked + .page-wrap .mePic {
 		top: 25%;
-		left: 43%;
+		margin-left: -65px;
 	}
 
 
 	#sidebartoggler:checked + .page-wrap #words {
 		top: 52%;
-		left: 36%;
+		margin-left: -200px;
 	}
 
 	#sidebartoggler:checked + .page-wrap #list {
@@ -286,20 +279,17 @@ html {
 	}
 }
 /* big screen mobile phone*/
-@media only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1){
 	#amazingaudioplayer-1 {
 		display: none;
 	}
 
 	.mePic {
-		width: 100px;
-		height: 100px;
-		left: 35%;
+		width: 130px;
+		height: 130px;
 	}
 
-	#words {
-		width: 260px;
-		left: 15%;
+	#words {		
 		top: 42%;
 	}
 
@@ -335,13 +325,13 @@ html {
 
 	#sidebartoggler:checked + .page-wrap .mePic {
 		top: 25%;
-		left: 35%;
+		margin-left: -65px;
 	}
 
 
 	#sidebartoggler:checked + .page-wrap #words {
 		top: 52%;
-		left: 15%;
+		margin-left: -200px;
 	}
 
 	#sidebartoggler:checked + .page-wrap #list {
@@ -357,80 +347,4 @@ html {
 		left: 5px;
 	}
 }
-
-/* small screen mobile phone */
-/*@media only screen and (min-width: 300px) and (max-width: 500px) and (-webkit-min-device-pixel-ratio: 1) {
-	#amazingaudioplayer-1 {
-		width: 200px;
-		height: auto;
-	}
-
-	.mePic {
-		width: 100px;
-		height: 100px;
-		left: 35%;
-	}
-
-	#words {
-		width: 260px;
-		left: 15%;
-		top: 42%;
-	}
-
-	#name {
-		font-size: 36px;
-	}
-
-	.des {
-		font-size: 16px;
-	}
-	.sidebar {
-		width: 100%;
-		height: 40px;
-		left: 0px;
-		top: -60px;
-	}
-
-	.sidebar ul {
-		left: -20px;
-		top: -50px;
-	}
-
-	.sidebar li {
-		font-size: 13px;
-		padding: 3px;
-		margin-bottom: 0px;
-		display: inline-block;
-	}
-
-	#sidebartoggler:checked + .page-wrap .sidebar {
-		top: 0px;
-	}
-
-	#sidebartoggler:checked + .page-wrap .mePic {
-		top: 25%;
-		left: 35%;
-	}
-
-
-	#sidebartoggler:checked + .page-wrap #words {
-		top: 52%;
-		left: 15%;
-	}
-
-	#sidebartoggler:checked + .page-wrap #list {
-		left: 0px;
-		top: 20px;
-	}
-
-	#sidebartoggler:checked + .page-wrap .toggle {
-		top: 60px;
-		left: 20px;
-	}
-	#sidebartoggler:checked + .page-wrap #amazingaudioplayer-1 {
-		left: 5px;
-	}
-
-}
-*/
 
