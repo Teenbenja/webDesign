@@ -398,13 +398,13 @@ html {
 
 	#sidebartoggler:checked + .page-wrap .mePic {
 		top: 25%;
-		margin-left: -65px;
+		margin-left: -50px;
 	}
 
 
 	#sidebartoggler:checked + .page-wrap #words {
 		top: 52%;
-		margin-left: -200px;
+		margin-left: -150px;
 	}
 
 	#sidebartoggler:checked + .page-wrap #list {
