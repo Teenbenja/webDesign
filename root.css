@@ -524,6 +524,8 @@ html {
 		height: 40px;
 		left: 0px;
 		top: -60px;
+		-webkit-transition: top 1s; 
+    	transition: top 1s;
 	}
 
 	.sidebar ul {
