@@ -382,7 +382,7 @@ html {
 	.mePic {
 		width: 100px;
 		height: 100px;
-		margin-left: -45px;
+		margin-left: -50px;
 		-webkit-transition: top 1s; 
     	transition: top 1s;
 	}
@@ -390,7 +390,7 @@ html {
 	#words {		
 		top: 44%;
 		width: 300px;
-		margin-left: -145px;
+		margin-left: -150px;
 		-webkit-transition: top 1s; 
     	transition: top 1s;
 	}
@@ -436,19 +436,19 @@ html {
 
 	#sidebartoggler:checked + .page-wrap .mePic {
 		top: 25%;
-		margin-left: -45px;
+		margin-left: -50px;
 		-webkit-transition: top 1s; 
     	transition: top 1s;
 	}
 	#sidebartoggler:checked + .page-wrap .contact {
 		top: 48%;
-		margin-left: -145px;
+		margin-left: -150px;
 		-webkit-transition: top 1s, opacity 2s; 
     	transition: top 1s, opacity 2s;
 	}
 	#sidebartoggler:checked + .page-wrap #words {
 		top: 52%;
-		margin-left: -145px;
+		margin-left: -150px;
 		-webkit-transition: top 1s; 
     	transition: top 1s;
 	}
@@ -472,7 +472,7 @@ html {
 		font-size: 13px;
 		top: 45%;
 		width: 300px;
-		margin-left: -145px;
+		margin-left: -150px;
 		-webkit-transition: top 1s, opacity 2s; 
     	transition: top 1s, opacity 2s;
 	}
@@ -495,14 +495,14 @@ html {
 	.mePic {
 		width: 100px;
 		height: 100px;
-		margin-left: -45px;
+		margin-left: -50px;
 		-webkit-transition: top 1s; 
     	transition: top 1s;
 	}
 
 	#words {	
 		width: 300px;
-		margin-left: -145px;	
+		margin-left: -150px;	
 		top: 44%;
 		-webkit-transition: top 1s; 
     	transition: top 1s;
@@ -548,20 +548,20 @@ html {
 
 	#sidebartoggler:checked + .page-wrap .mePic {
 		top: 25%;
-		margin-left: -45px;
+		margin-left: -50px;
 		-webkit-transition: top 1s; 
     	transition: top 1s;
 	}
 	#sidebartoggler:checked + .page-wrap .contact {
 		top: 48%;
-		margin-left: -145px;
+		margin-left: -150px;
 		-webkit-transition: top 1s, opacity 2s; 
     	transition: top 1s, opacity 2s;
 	}
 
 	#sidebartoggler:checked + .page-wrap #words {
 		top: 52%;
-		margin-left: -145px;
+		margin-left: -150px;
 		-webkit-transition: top 1s; 
     	transition: top 1s;
 	}
@@ -586,7 +586,7 @@ html {
 		font-size: 12px;
 		top: 45%;
 		width: 300px;
-		margin-left: -145px;
+		margin-left: -150px;
 		-webkit-transition: top 1s, opacity 2s; 
     	transition: top 1s, opacity 2s;
 	}
