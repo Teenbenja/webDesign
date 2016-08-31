@@ -4,37 +4,35 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="initial-scale=1">
 	<title>Teen's 🎼 Rocks</title>
-	<link rel="stylesheet" type="text/css" href="root.css">
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  	
-  	<!-- audioPlayer -->
-  	<script src="audioplayerengine/jquery.js"></script>
-    <script src="audioplayerengine/amazingaudioplayer.js"></script>
-    <link rel="stylesheet" type="text/css" href="audioplayerengine/initaudioplayer-1.css">
-    <script src="audioplayerengine/initaudioplayer-1.js"></script>
 </head>
 <body>
 	<input type="checkbox" id="sidebartoggler">
+	
 	<div ng-controller="mainCtrl" class="page-wrap">
 		<label for="sidebartoggler" class="toggle">☰</label>
-		<div>
+		<input type="checkbox" id="contacttoggler">
+		<div class="pic">
 			<img src="./pics/me.jpg" class="img-circle mePic" >
 		</div>
 		<div class="sidebar">
 			<ul id="list">
-				<li>Home</li>
 				<li><strike>Portfolio</strike></li>
 				<li><strike>ShowRoom</strike></li>
 				<li><strike>Blog</strike></li>
-				<li><a href="#cnt">Contact</a></li>
+				<li><label for="contacttoggler" class="">Contact</label></li>
+
 			</ul>
 		</div>
 		<div id="words">
 			<P class="des">HI THERE, MY NAME IS</P>
 			<h1 id="name">XIAOYU TIAN</h1>
 			<p class="des">WEB DESIGN LOVER, DEVELOPER & MUSIC ADDICT</p>
+		</div>
+		<div class="contact">
+			<p>If you have any quetions or suggestions for me, feel free to contact me through email.</p>
+			<p>如果有什么建议或者问题的欢迎联系我哦。</p>
+			<p>Email: xiaoyutian222@gmail.com</p>
+			<p>Github: github.com/teenbenja</p>
 		</div>
 		<div id="amazingaudioplayer-1">
 	        <ul class="amazingaudioplayer-audios" style="display:none;">
@@ -52,5 +50,17 @@
 	    </div>	
 	</div>
 	
+
+
+		<link rel="stylesheet" type="text/css" href="root.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  	
+  	<!-- audioPlayer -->
+  	<script src="audioplayerengine/jquery.js"></script>
+    <script src="audioplayerengine/amazingaudioplayer.js"></script>
+    <link rel="stylesheet" type="text/css" href="audioplayerengine/initaudioplayer-1.css">
+    <script src="audioplayerengine/initaudioplayer-1.js"></script>
 </body>
 </html>
